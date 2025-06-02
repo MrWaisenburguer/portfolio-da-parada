@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página Única</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #333;
+      padding: 1rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    section {
+      padding: 1rem;
+      background-color: #f5f5f5;
+      border-radius: 8px;
+    }
+    section img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bem-vindo à Minha Página</h1>
+    <p>Descubra mais sobre mim, meus projetos e novidades!</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre Mim</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#novidades">Novidades</a>
+  </nav>
+
+  <div class="container">
+    
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Olá! Sou um entusiasta de tecnologia, apaixonado por desenvolvimento web e design. Adoro criar soluções criativas e explorar novas ideias para projetos digitais.</p>
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?fit=crop&w=800&q=80" alt="Imagem sobre mim">
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <p>Atualmente estou trabalhando em diversas aplicações web e experimentos com inteligência artificial. Meu objetivo é construir ferramentas úteis que facilitem o dia a dia das pessoas.</p>
+      <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?fit=crop&w=800&q=80" alt="Imagem projetos">
+    </section>
+
+    <section id="novidades">
+      <h2>Novidades</h2>
+      <p>Em breve, vou lançar um novo blog onde irei compartilhar dicas de programação, tutoriais e análises de tendências tecnológicas. Fique de olho!</p>
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?fit=crop&w=800&q=80" alt="Imagem novidades">
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 | Minha Página Única</p>
+  </footer>
+
+</body>
+</html>
